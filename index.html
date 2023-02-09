@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Blogr</title>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="header__desktop">
+        <div class="container container-flex header__bar">
+          <img
+            class="logo"
+            src="assets/images/logo.svg"
+            alt="logo empresa Blogr"
+          />
+          <button id="button-menu" class="button-menu">
+            <img
+              id="button-img"
+              class="button-menu__img"
+              src="assets/images/icon-hamburger.svg"
+              alt="pulsar para abrir y cerrar el menu de navegacíon"
+            />
+          </button>
+        </div>
+        <div id="menu" class="menu">
+          <nav>
+            <ul class="menu__main">
+              <li id="submenu-product" class="submenu__title">
+                Product
+                <picture>
+                  <source
+                    srcset="assets/images/icon-arrow-light.svg"
+                    media="(min-width: 1000px)"
+                  />
+                  <source
+                    srcset="assets/images/icon-arrow-dark.svg"
+                    media="(max-width: 1000px)"
+                  />
+                  <img
+                    class="submenu__img"
+                    src="./assets/images/icon-arrow-dark.svg"
+                    alt="flecha para abrir y cerrar el submenu"
+                  />
+                </picture>
+
+                <ul class="submenu">
+                  <li><a class="submenu__item" href="">Overview</a></li>
+                  <li><a class="submenu__item" href="">Pricing</a></li>
+                  <li><a class="submenu__item" href="">Marketplace</a></li>
+                  <li><a class="submenu__item" href="">Features</a></li>
+                  <li><a class="submenu__item" href="">Integrations</a></li>
+                </ul>
+              </li>
+              <li id="submenu-company" class="submenu__title">
+                Company
+                <picture>
+                  <source
+                    srcset="assets/images/icon-arrow-light.svg"
+                    media="(min-width: 1000px)"
+                  />
+                  <source
+                    srcset="assets/images/icon-arrow-dark.svg"
+                    media="(max-width: 1000px)"
+                  />
+                  <img
+                    class="submenu__img"
+                    src="./assets/images/icon-arrow-dark.svg"
+                    alt="flecha para abrir y cerrar el submenu"
+                  />
+                </picture>
+
+                <ul class="submenu">
+                  <li><a class="submenu__item" href=""> About</a></li>
+                  <li><a class="submenu__item" href=""> Team</a></li>
+                  <li><a class="submenu__item" href=""> Blog</a></li>
+                  <li><a class="submenu__item" href="">Careers</a></li>
+                </ul>
+              </li>
+              <li id="submenu-connect" class="submenu__title">
+                Connect
+
+                <picture>
+                  <source
+                    srcset="assets/images/icon-arrow-light.svg"
+                    media="(min-width: 1000px)"
+                  />
+                  <source
+                    srcset="assets/images/icon-arrow-dark.svg"
+                    media="(max-width: 1000px)"
+                  />
+                  <img
+                    class="submenu__img"
+                    src="./assets/images/icon-arrow-dark.svg"
+                    alt="flecha para abrir y cerrar el submenu"
+                  />
+                </picture>
+                <ul class="submenu">
+                  <li><a class="submenu__item" href="">Contact</a></li>
+                  <li><a class="submenu__item" href="">Newsletter</a></li>
+                  <li><a class="submenu__item" href="">LinkedIn</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <nav>
+            <ul class="menu__client">
+              <li><a class="menu__login" href="">Login</a></li>
+              <li>
+                <a class="menu__sign button button--terciary" href=""
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <h1 class="title title-m title-white">
+            A modern publishing platform
+          </h1>
+          <p>Grow your audience and build your online brand</p>
+          <div class="intro__buttons">
+            <button class="button button--primary">Start for Free</button>
+            <button class="button button--secondary">Learn More</button>
+          </div>
+        </div>
+      </section>
+      <section class="future">
+        <div class="future__desktop">
+          <h2 class="container title title-change">Designed for the future</h2>
+          <picture class="future__picture">
+            <source
+              media="(min-width: 720px)"
+              srcset="assets/images/illustration-editor-desktop.svg" />
+            <source
+              media="(max-width: 720px)"
+              srcset="assets/images/illustration-editor-mobile.svg" />
+            <img
+              class="future__img"
+              src="assets/images/illustration-editor-desktop.svg"
+              alt="imagen de una pantalla de Blogr editando el contenido"
+          /></picture>
+          <div class="container">
+            <div class="future__text">
+              <div class="paragrafh">
+                <h3 class="title title-m">Introducing an extensible editor</h3>
+                <p>
+                  Blogr features an exceedingly intuitive interface which lets
+                  you focus on one thing: creating content. The editor supports
+                  management of multiple blogs and allows easy manipulation of
+                  embeds such as images, videos, and Markdown. Extensibility
+                  with plugins and themes provide easy ways to add functionality
+                  or change the looks of a blog.
+                </p>
+              </div>
+              <div class="paragrafh last">
+                <h3 class="title title-m">Robust content management</h3>
+                <p>
+                  Flexible content management enables users to easily move
+                  through posts. Increase the usability of your blog by adding
+                  customized categories, sections, format, or flow. With this
+                  functionality, you’re in full control.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="infrastructure">
+        <div class="container container-flex">
+          <picture class="infrastructure__picture">
+            <img
+              class="infrastructure__img"
+              src="./assets/images/illustration-phones.svg"
+              alt="imagen de dos móviles con pantallas de Blogr, viendo como queda el contenido de la aplicación"
+            />
+          </picture>
+          <div class="intrastructure__text">
+            <h2 class="title title-l title-white">
+              State of the Art Infrastructure
+            </h2>
+            <p>
+              With reliability and speed in mind, worldwide data centers provide
+              the backbone for ultra-fast connectivity. This ensures your site
+              will load instantly, no matter where your readers are, keeping
+              your site competitive.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="open pad-section">
+        <div class="container open__desktop">
+          <picture class="open__pict">
+            <source
+              media="(min-width: 1000px)"
+              srcset="assets/images/illustration-laptop-desktop.svg" />
+            <source
+              media="(max-width: 1000px)"
+              srcset="assets/images/illustration-laptop-mobile.svg" />
+            <img
+              class="open__img"
+              src="assets/images/illustration-laptop-desktop.svg"
+              alt="imagen de portatil con una pantalla de Blogr"
+          /></picture>
+          <div class="open__text">
+            <div class="paragrafh">
+              <h3 class="title title-m">Free, open, simple</h3>
+              <p>
+                Blogr is a free and open source application backed by a large
+                community of helpful developers. It supports features such as
+                code syntax highlighting, RSS feeds, social media integration,
+                third-party commenting tools, and works seamlessly with Google
+                Analytics. The architecture is clean and is relatively easy to
+                learn.
+              </p>
+            </div>
+            <div class="paragrafh last">
+              <h3 class="title title-m">Powerful tooling</h3>
+              <p>
+                Batteries included. We built a simple and straightforward CLI
+                tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer pad-section">
+      <div class="container container-flex footer__estructure">
+        <div class="footer__logo">
+          <img src="./assets/images/logo.svg" alt="logo de la empresa Blogr" />
+        </div>
+
+        <nav class="footer__nav">
+          <ul class="footer__ul">
+            <li>
+              Product
+              <ul class="footer__submenu">
+                <li><a class="footer__link" href="">Overview</a></li>
+                <li><a class="footer__link" href="">Pricing</a></li>
+                <li><a class="footer__link" href="">Marketplace</a></li>
+                <li><a class="footer__link" href="">Features</a></li>
+                <li><a class="footer__link last" href="">Integrations</a></li>
+              </ul>
+            </li>
+            <li>
+              Company
+              <ul class="footer__submenu">
+                <li><a class="footer__link" href=""> About</a></li>
+                <li><a class="footer__link" href=""> Team</a></li>
+                <li><a class="footer__link" href=""> Blog</a></li>
+                <li><a class="footer__link last" href="">Careers</a></li>
+              </ul>
+            </li>
+            <li>
+              Connect
+              <ul class="footer__submenu">
+                <li><a class="footer__link" href="">Contact</a></li>
+                <li><a class="footer__link" href="">Newsletter</a></li>
+                <li><a class="footer__link last" href="">LinkedIn</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
