@@ -6,8 +6,8 @@
   --fs-xl: clamp(2.37rem, 1.8vw + 1.92rem, 3.36rem);
   --fs-xxl: clamp(3.16rem, 2.89vw + 2.43rem, 4.75rem);
   --fs-xxxl: clamp(4.21rem, 4.55vw + 3.07rem, 6.71rem);
-  --ff-btn: "Ubuntu", sans-serif;
-  --ff-main: "Overpass", sans-serif;
+  --ff-btn: 'Ubuntu', sans-serif;
+  --ff-main: 'Overpass', sans-serif;
   --border-section: 80px;
   --color-cta-text: hsl(356, 100%, 66%);
   --color-cta-hover: hsl(355, 100%, 74%);
@@ -21,7 +21,6 @@
   --color-bg-backup-primary: hsl(13, 100%, 72%);
   --color-bg-backup-secondary: hsl(237, 17%, 21%);
 }
-
 
 /* & reset */
 * {
@@ -419,7 +418,7 @@ button {
 .intro::after {
   position: absolute;
   z-index: -1;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 100%;
@@ -435,6 +434,7 @@ button {
   width: 100%;
   margin-top: 2.5rem;
 }
+
 /* & future */
 .future {
   padding-top: 6rem;
@@ -454,8 +454,8 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "one one"
-      "two three";
+      'one one'
+      'two three';
   }
 }
 
@@ -508,7 +508,7 @@ button {
 .infrastructure::after {
   position: absolute;
   z-index: -1;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 100%;
@@ -534,7 +534,7 @@ button {
 .infrastructure__img {
   margin-left: auto;
   margin-right: auto;
-  max-height: 500px;
+  max-height: 25rem;
 }
 @media screen and (min-width: 1000px) {
   .infrastructure__img {
