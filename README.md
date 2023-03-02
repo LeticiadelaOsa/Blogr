@@ -33,11 +33,11 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ## Autor ✒️
 
-**TU NOMBRE**
+**Leticia de la Osa**
 
 - [contacto@deletidev.com](contacto@deletidev.com)
 - [LinkedIn](https://www.linkedin.com/in/deletidev)
-- [Porfolio web](https://deletidev.com/)
+- [Mi porfolio web](https://deletidev.com/)
 
 ## Instalación
 
