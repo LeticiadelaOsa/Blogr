@@ -1,11 +1,18 @@
 :root {
-  --fs-sm: clamp(0.75rem, 0.16vw + 0.71rem, 0.84rem);
+  /* --fs-sm: clamp(0.75rem, 0.16vw + 0.71rem, 0.84rem);
   --fs-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
   --fs-md: clamp(1.33rem, 0.63vw + 1.18rem, 1.68rem);
   --fs-lg: clamp(1.78rem, 1.09vw + 1.51rem, 2.37rem);
   --fs-xl: clamp(2.37rem, 1.8vw + 1.92rem, 3.36rem);
   --fs-xxl: clamp(3.16rem, 2.89vw + 2.43rem, 4.75rem);
-  --fs-xxxl: clamp(4.21rem, 4.55vw + 3.07rem, 6.71rem);
+  --fs-xxxl: clamp(4.21rem, 4.55vw + 3.07rem, 6.71rem); */
+  --fs-sm: clamp(0.8rem, 0.08vw + 0.78rem, 0.84rem);
+  --fs-base: clamp(1rem, 0.22vw + 0.95rem, 1.13rem);
+  --fs-md: clamp(1.25rem, 0.44vw + 1.15rem, 1.5rem);
+  --fs-lg: clamp(1.56rem, 0.77vw + 1.38rem, 2rem);
+  --fs-xl: clamp(1.95rem, 1.26vw + 1.66rem, 2.66rem);
+  --fs-xxl: clamp(2.44rem, 1.96vw + 1.98rem, 3.55rem);
+  --fs-xxxl: clamp(3.05rem, 2.98vw + 2.35rem, 4.73rem);
   --ff-btn: 'Ubuntu', sans-serif;
   --ff-main: 'Overpass', sans-serif;
   --border-section: 80px;
@@ -76,14 +83,11 @@ button {
 @media screen and (min-width: 1000px) {
   .title-change {
     margin-bottom: 6rem;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .title-change {
     grid-area: one;
     text-align: center;
   }
 }
+
 .title-xl {
   font-size: var(--fs-xl);
   line-height: 1.3;
